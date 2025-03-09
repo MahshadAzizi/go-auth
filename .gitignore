@@ -1,0 +1,47 @@
+# 🔹 Ignore Go build artifacts
+/bin/
+/pkg/
+**/*.exe
+**/*.out
+**/*.test
+*.a
+
+# 🔹 Ignore GoLand IDE settings
+.idea/
+*.iml
+
+# 🔹 Ignore dependency-related files (except go.mod & go.sum)
+vendor/
+
+# 🔹 Ignore compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# 🔹 Ignore test and coverage reports
+*.cover
+*.prof
+*.cov
+*.testresult
+*.log
+
+# 🔹 Ignore temporary & backup files
+*.tmp
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# 🔹 Ignore environment & secret files
+.env
+.env.*
+secrets.json
+
+# 🔹 Ignore Go cache & build artifacts
+/go/
+gopath/
+go.work
+go.work.sum
